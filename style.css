@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(125, 197, 179);
+    min-height: 100vh;
+    align-items: center;
+    margin-top: 12vh;
+    padding-top: 10vh;
+    border-radius: 10%;
+    box-shadow: 0 0 4vh 5vh rgba(255, 255, 255, 0.507);
+}
+body{
+    display: block;
+    background-color: rgb(120, 216, 192);
+    user-select: none;
+    font-family: 'Pacifico', cursive;
+}
+.title{
+    font-size: 5vh;
+    padding-bottom: 7vh;
+    color: white;
+}
+#inputCity{
+    outline: none;
+    width: 25vh;
+    height: 2vh;
+    background-color: transparent;
+    font-family: inherit;
+    border: none;
+    border-bottom: 0.2vh solid rgb(255, 255, 255);
+    border-top: dotted white;
+    border-left: dotted white;
+    border-right: dotted white;
+    font-size: 1.7vh;
+    color: white;
+    font-size: 1vh;
+    
+}
+#iconWrapper{
+    height: 17vh;
+    width: 15vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+#iconWrapper img{
+    width: 100%;
+}
+.info{
+    border-bottom: dotted 0.5vh white;
+    font-size: 2.5vh;
+    color: white;
+    width: 30vh;
+}
+#descLabel{
+    text-align: center;
+    font-size: 4vh;
+    margin: 2vh;
+    border-bottom: none;
+}
